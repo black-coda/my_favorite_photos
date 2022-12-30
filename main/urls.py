@@ -8,7 +8,7 @@ urlpatterns = [
     path('category-create/', views.CategoryCreateView.as_view()),
 
     #wallpaper
-    path('', views.WallpaperListView.as_view()),
+    path('wallpaper-list/', views.WallpaperListView.as_view()),
     path('wallpaper-retrieve/<int:pk>/', views.WallpaperRetrieveView.as_view()),
     path('wallpaper-create/', views.WallpaperCreateView.as_view()),
 ]
