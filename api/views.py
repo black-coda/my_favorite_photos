@@ -3,7 +3,7 @@ from api.serializers import CategorySerializer, WallpaperSerializer
 from rest_framework import generics
 from main.models import Category, Wallpaper
 from rest_framework.permissions import AllowAny, IsAdminUser
-
+from drf_yasg.utils import swagger_auto_schema
 
 
 
